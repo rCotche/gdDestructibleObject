@@ -1,0 +1,45 @@
+https://www.youtube.com/watch?v=nnb3ATgLftE
+
+//////////////////////////////
+
+BLENDER
+
+blender 5.0
+
+press a > press x > select delete
+
+drag & drop the downloaded model > import gltf 2.0
+
+only need the object, delete les autres (pumpkin)
+
+select object dans la collection (en haut a droite, la scene hierachy) > f2 to rename > press enter to confirm
+
+select object > press R > press X > type -90 > press enter to confirm
+
+press N > scale > x y z value = 0.005
+
+en haut à gauche (au niveau de la liste deroulante object mode) select menu object > Apply > all transforms
+
+edit mode, press tab > hover la bougie (tout ce qui compose, la flamme la meche, crire) dans le pumpkin, press l > press x > delete vertices
+
+press tab, switch back to object mode
+
+en haut à droite, select material preview, ref image material_preview.png > en bas à droite (inpector) select tab material >
+Puis en haut à droite, click sur le + > puis click sur le bouton new > pour créer un new material, ref image creat_material.png
+
+select surface (par default déjà open) > select base color > change it to black > click dans le input où il ya la valeur en hex > press enter to confirm
+
+select surface (par default déjà open) > select emision > change it to orange > click dans le input où il ya la valeur en hex > press enter to confirm
+
+select strenght == 3
+
+edit mode, press tab > select all face à l'interieur du pumpkin, hover les faces press l > en bas à droite (inpector) select tab material >
+puis select inner material > click assign
+
+press A, select everything > press M > select merge by distance
+
+en haut à gauche (au niveau de file menu), menu edit > preferences > get extension > type "cell fracture" > install
+
+GODOT
+
+godot 4.5.1
