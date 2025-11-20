@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dsayf3tdmt7no"
-path.s3tc="res://.godot/imported/pumpkin_pieces_Image_3.png-27779a55a05edea3cb2262e0a3a28830.s3tc.ctex"
+uid="uid://brlr1axfbyut5"
+path.s3tc="res://.godot/imported/pumpkin_pieces_auto_rigidbody_Image_0.png-d901ed81cb518a17e53257f98d13f7e3.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "4d48cc5bba7d5c3b2f39d975d2f7dcbb"
+"md5": "46d02ce33a8e93a760efd6bc71077101"
 }
 
 [deps]
 
-source_file="res://models/pumpkin_pieces_Image_3.png"
-dest_files=["res://.godot/imported/pumpkin_pieces_Image_3.png-27779a55a05edea3cb2262e0a3a28830.s3tc.ctex"]
+source_file="res://models/pumpkin_pieces_auto_rigidbody_Image_0.png"
+dest_files=["res://.godot/imported/pumpkin_pieces_auto_rigidbody_Image_0.png-d901ed81cb518a17e53257f98d13f7e3.s3tc.ctex"]
 
 [params]
 
@@ -25,12 +25,12 @@ compress/lossy_quality=0.7
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
-compress/normal_map=1
+compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1
-roughness/mode=1
-roughness/src_normal="res://models/pumpkin_pieces_Image_3.png"
+roughness/mode=0
+roughness/src_normal=""
 process/channel_remap/red=0
 process/channel_remap/green=1
 process/channel_remap/blue=2

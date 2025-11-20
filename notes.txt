@@ -48,9 +48,16 @@ en haut a droite, select solid, ref image solid.png
 
 select all pieces du model fractured (dans la collection, scene hierachy) > en haut a gauche, file menu > export > gltf > include menu à droite > limited to > checked selected object
 
-press h pour hide element selected
+press h pour hide element selected ET press ALT + H to display them
 
 select model (dans la collection, scene hierachy) > en haut a gauche, file menu > export > gltf > include menu à droite > limited to > checked selected object
+
+TIPS
+In blender just add -col to end of each object and it will have a collision shape when imported. Preferably you could do a batch rename then add -col to end of object
+If you add -rigid instead of -col, Godot will import it as a rigid body with collisions, ready to go.
+
+ref image scripting.png
+#
 
 GODOT
 
@@ -58,3 +65,7 @@ godot 4.5.1
 
 drag & drop models dans le dossier models
 
+click droit sur le model pumplin_pieces > new inherited scene > ref image, inherited_scene.png > en haut à gauche scene menu > save as > 
+
+Manually: add node rigibody 3D, child node pumpkin_piece(origin) > drag the meshinstance "pumpkin_cell" en dessous du node rigidbody3D > 
+select meshinstance > en haut au millieu, mesh/maillage menu, ref image > sibling/association > simple convex > create

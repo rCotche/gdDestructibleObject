@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://etrfd30m33y6"
-path.s3tc="res://.godot/imported/pumpkin_pieces_Image_0.png-35a57efc9e39c52b54f7b7de48ff589d.s3tc.ctex"
+uid="uid://bn8p74lurmdxm"
+path.s3tc="res://.godot/imported/pumpkin_pieces_auto_rigidbody_Image_1.png-f4f35541c313bd7d62f336919271f49d.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "46d02ce33a8e93a760efd6bc71077101"
+"md5": "76d2b2371ad8242cbcfe7e16d7252334"
 }
 
 [deps]
 
-source_file="res://models/pumpkin_pieces_Image_0.png"
-dest_files=["res://.godot/imported/pumpkin_pieces_Image_0.png-35a57efc9e39c52b54f7b7de48ff589d.s3tc.ctex"]
+source_file="res://models/pumpkin_pieces_auto_rigidbody_Image_1.png"
+dest_files=["res://.godot/imported/pumpkin_pieces_auto_rigidbody_Image_1.png-f4f35541c313bd7d62f336919271f49d.s3tc.ctex"]
 
 [params]
 

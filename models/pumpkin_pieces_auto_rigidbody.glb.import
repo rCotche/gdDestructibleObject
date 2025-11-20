@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://xnxx7e86dp8l"
-path="res://.godot/imported/pumpkin_pieces.glb-9ea5f7b535a45eefe5006d185e30ea91.scn"
+uid="uid://bvg2bn3qta8i7"
+path="res://.godot/imported/pumpkin_pieces_auto_rigidbody.glb-ae0a864a266dd495f43738b504d5eede.scn"
 
 [deps]
 
-source_file="res://models/pumpkin_pieces.glb"
-dest_files=["res://.godot/imported/pumpkin_pieces.glb-9ea5f7b535a45eefe5006d185e30ea91.scn"]
+source_file="res://models/pumpkin_pieces_auto_rigidbody.glb"
+dest_files=["res://.godot/imported/pumpkin_pieces_auto_rigidbody.glb-ae0a864a266dd495f43738b504d5eede.scn"]
 
 [params]
 
