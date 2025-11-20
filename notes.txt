@@ -36,10 +36,25 @@ select strenght == 3
 edit mode, press tab > select all face à l'interieur du pumpkin, hover les faces press l > en bas à droite (inpector) select tab material >
 puis select inner material > click assign
 
-press A, select everything > press M > select merge by distance
+press A, select everything > (ou F3 pour rechercher )press M > select merge by distance
 
 en haut à gauche (au niveau de file menu), menu edit > preferences > get extension > type "cell fracture" > install
+
+object mode > select model > press f3 > type "cell fracture"
+
+noise == 0.1 > source limit == 22 > click ok, ref image cell_fracture.png
+
+en haut a droite, select solid, ref image solid.png
+
+select all pieces du model fractured (dans la collection, scene hierachy) > en haut a gauche, file menu > export > gltf > include menu à droite > limited to > checked selected object
+
+press h pour hide element selected
+
+select model (dans la collection, scene hierachy) > en haut a gauche, file menu > export > gltf > include menu à droite > limited to > checked selected object
 
 GODOT
 
 godot 4.5.1
+
+drag & drop models dans le dossier models
+
