@@ -1,0 +1,106 @@
+[gd_scene load_steps=8 format=3 uid="uid://cmmvuo2clgxkj"]
+
+[ext_resource type="PackedScene" uid="uid://bpdxbrqnqs5m6" path="res://scenes/pumpkin_simple_modified.tscn" id="1_4xfga"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_hrmi8"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_4xfga"]
+sky_material = SubResource("ProceduralSkyMaterial_hrmi8")
+
+[sub_resource type="Environment" id="Environment_paxxb"]
+background_mode = 2
+sky = SubResource("Sky_4xfga")
+tonemap_mode = 2
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hrmi8"]
+albedo_color = Color(0.16470589, 0.16470589, 0.16470589, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_4xfga"]
+material = SubResource("StandardMaterial3D_hrmi8")
+size = Vector2(30, 30)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hrmi8"]
+size = Vector3(30, 0.1, 30)
+
+[node name="Map" type="Node"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+shadow_enabled = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_paxxb")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
+mesh = SubResource("PlaneMesh_4xfga")
+skeleton = NodePath("../..")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("BoxShape3D_hrmi8")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.95428205, 0.29890755, 0, -0.29890755, 0.95428205, 0, 2.1904118, 2.2926009)
+
+[node name="pumpkin_simple" parent="." instance=ExtResource("1_4xfga")]
+transform = Transform3D(0.122215755, 0, -0.9925036, 0, 1, 0, 0.9925036, 0, 0.122215755, 0.0003604889, 0.6943864, -0.16345978)
+
+[node name="pumpkin_simple2" parent="." instance=ExtResource("1_4xfga")]
+transform = Transform3D(0.122215755, 0, -0.9925036, 0, 1, 0, 0.9925036, 0, 0.122215755, 3.4761915, 0.6943864, -0.16345978)
+
+[node name="pumpkin_simple3" parent="." instance=ExtResource("1_4xfga")]
+transform = Transform3D(0.122215755, 0, -0.9925036, 0, 1, 0, 0.9925036, 0, 0.122215755, 7.2697062, 0.6943864, -0.16345978)
+
+[node name="pumpkin_simple4" parent="." instance=ExtResource("1_4xfga")]
+transform = Transform3D(0.122215755, 0, -0.9925036, 0, 1, 0, 0.9925036, 0, 0.122215755, -4.6773095, 0.6943864, -0.16345978)
+
+[node name="pumpkin_simple5" parent="." instance=ExtResource("1_4xfga")]
+transform = Transform3D(0.122215755, 0, -0.9925036, 0, 1, 0, 0.9925036, 0, 0.122215755, -9.036761, 0.6943864, -0.16345978)
+
+[node name="pumpkin_simple6" parent="." instance=ExtResource("1_4xfga")]
+transform = Transform3D(0.122215755, 0, -0.9925036, 0, 1, 0, 0.9925036, 0, 0.122215755, 0.0003604889, 0.6943864, -2.538032)
+
+[node name="pumpkin_simple7" parent="." instance=ExtResource("1_4xfga")]
+transform = Transform3D(0.122215755, 0, -0.9925036, 0, 1, 0, 0.9925036, 0, 0.122215755, 3.4761915, 0.6943864, -2.538032)
+
+[node name="pumpkin_simple8" parent="." instance=ExtResource("1_4xfga")]
+transform = Transform3D(0.122215755, 0, -0.9925036, 0, 1, 0, 0.9925036, 0, 0.122215755, 7.2697062, 0.6943864, -2.538032)
+
+[node name="pumpkin_simple9" parent="." instance=ExtResource("1_4xfga")]
+transform = Transform3D(0.122215755, 0, -0.9925036, 0, 1, 0, 0.9925036, 0, 0.122215755, -4.6773095, 0.6943864, -2.538032)
+
+[node name="pumpkin_simple10" parent="." instance=ExtResource("1_4xfga")]
+transform = Transform3D(0.122215755, 0, -0.9925036, 0, 1, 0, 0.9925036, 0, 0.122215755, -9.036761, 0.6943864, -2.538032)
+
+[node name="pumpkin_simple11" parent="." instance=ExtResource("1_4xfga")]
+transform = Transform3D(0.122215755, 0, -0.9925036, 0, 1, 0, 0.9925036, 0, 0.122215755, 0.0003604889, 0.6943864, -5.2631245)
+
+[node name="pumpkin_simple12" parent="." instance=ExtResource("1_4xfga")]
+transform = Transform3D(0.122215755, 0, -0.9925036, 0, 1, 0, 0.9925036, 0, 0.122215755, 3.4761915, 0.6943864, -5.2631245)
+
+[node name="pumpkin_simple13" parent="." instance=ExtResource("1_4xfga")]
+transform = Transform3D(0.122215755, 0, -0.9925036, 0, 1, 0, 0.9925036, 0, 0.122215755, 7.2697062, 0.6943864, -5.2631245)
+
+[node name="pumpkin_simple14" parent="." instance=ExtResource("1_4xfga")]
+transform = Transform3D(0.122215755, 0, -0.9925036, 0, 1, 0, 0.9925036, 0, 0.122215755, -4.6773095, 0.6943864, -5.2631245)
+
+[node name="pumpkin_simple15" parent="." instance=ExtResource("1_4xfga")]
+transform = Transform3D(0.122215755, 0, -0.9925036, 0, 1, 0, 0.9925036, 0, 0.122215755, -9.036761, 0.6943864, -5.2631245)
+
+[node name="pumpkin_simple16" parent="." instance=ExtResource("1_4xfga")]
+transform = Transform3D(0.122215755, 0, -0.9925036, 0, 1, 0, 0.9925036, 0, 0.122215755, 0.0003604889, 0.6943864, -9.5393)
+
+[node name="pumpkin_simple17" parent="." instance=ExtResource("1_4xfga")]
+transform = Transform3D(0.122215755, 0, -0.9925036, 0, 1, 0, 0.9925036, 0, 0.122215755, 3.4761915, 0.6943864, -9.5393)
+
+[node name="pumpkin_simple18" parent="." instance=ExtResource("1_4xfga")]
+transform = Transform3D(0.122215755, 0, -0.9925036, 0, 1, 0, 0.9925036, 0, 0.122215755, 7.2697062, 0.6943864, -9.5393)
+
+[node name="pumpkin_simple19" parent="." instance=ExtResource("1_4xfga")]
+transform = Transform3D(0.122215755, 0, -0.9925036, 0, 1, 0, 0.9925036, 0, 0.122215755, -4.6773095, 0.6943864, -9.5393)
+
+[node name="pumpkin_simple20" parent="." instance=ExtResource("1_4xfga")]
+transform = Transform3D(0.122215755, 0, -0.9925036, 0, 1, 0, 0.9925036, 0, 0.122215755, -9.036761, 0.6943864, -9.5393)

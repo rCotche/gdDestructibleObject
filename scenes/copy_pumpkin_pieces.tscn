@@ -1,4 +1,4 @@
-[gd_scene load_steps=95 format=4 uid="uid://bngaaf3hi5f4d"]
+[gd_scene load_steps=95 format=4 uid="uid://cqsfrsardxjdf"]
 
 [ext_resource type="Script" uid="uid://dsv6w4mug5yyf" path="res://scripts/model_breaker.gd" id="1_1gdf1"]
 [ext_resource type="Texture2D" uid="uid://brlr1axfbyut5" path="res://models/pumpkin_pieces_auto_rigidbody_Image_0.png" id="1_3umpr"]
@@ -1747,6 +1747,9 @@ skeleton = NodePath("")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="pumpkin_cell_022-rigid"]
 shape = SubResource("ConvexPolygonShape3D_l0vad")
 
+[node name="pumpkin_cell_023-rigid" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.60396963, -0.2408912, -0.16996507)
+
 [node name="pumpkin_cell_024-rigid" type="RigidBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.030020267, -0.25680956, -0.010939762)
 
@@ -1766,6 +1769,9 @@ skeleton = NodePath("")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="pumpkin_cell_025-rigid"]
 shape = SubResource("ConvexPolygonShape3D_m5lmb")
+
+[node name="pumpkin_cell_026-rigid" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0605063, 0.84693635, -0.18418112)
 
 [node name="pumpkin_cell_027-rigid" type="RigidBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5328109, -0.12633333, -0.44535676)

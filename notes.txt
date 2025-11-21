@@ -69,3 +69,11 @@ click droit sur le model pumplin_pieces > new inherited scene > ref image, inher
 
 Manually: add node rigibody 3D, child node pumpkin_piece(origin) > drag the meshinstance "pumpkin_cell" en dessous du node rigidbody3D > 
 select meshinstance > en haut au millieu, mesh/maillage menu, ref image > sibling/association > simple convex > create
+
+
+onglet 3d > en haut a gauche, click perspective > view information ref image voir_information.png
+onglet 3d > en haut a gauche, click perspective > display overdraw afficher_overdraw.png
+
+en bas au niveau du terminal, click tab deboguer > monitor > check FPS, Ressources, node
+
+project > project settings > physics > 3d > physic engine > jolt
